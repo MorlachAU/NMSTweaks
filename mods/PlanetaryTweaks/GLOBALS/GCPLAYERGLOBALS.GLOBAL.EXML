@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcPlayerGlobals">
+  <Property name="BinocularRangePlanet" value="1500.000000" /> !# CHANGED
+  <Property name="BinocularRangeSpace" value="15000.000000" /> !# CHANGED
+  <Property name="LaserBeamMineRate" value="0.600000" /> !# CHANGED
+  <Property name="TerrainLaserRange" value="150.000000" /> !# CHANGED
+</Data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcGameplayGlobals">
+  <Property name="ShipMiningMul" value="0.400000" /> !# CHANGED
+  <Property name="RefinerProductsMadeInTime" value="6" /> !# CHANGED
+  <Property name="RefinerSubsMadeInTime" value="750" /> !# CHANGED
+  <Property name="RefinerProductsMadeInTimeSurvival" value="3" /> !# CHANGED
+  <Property name="RefinerSubsMadeInTimeSurvival" value="300" /> !# CHANGED
+  <Property name="BinocTimeBeforeScan" value="0.250000" /> !# CHANGED
+  <Property name="BinocMinScanTime" value="1.100000" /> !# CHANGED
+  <Property name="BinocScanTime" value="1.100000" /> !# CHANGED
+  <Property name="BinocCreatureScanTime" value="0.950000" /> !# CHANGED
+  <Property name="CreatureMinScanTime" value="0.400000" /> !# CHANGED
+  <Property name="WaypointScanTime" value="1.500000" /> !# CHANGED
+</Data>

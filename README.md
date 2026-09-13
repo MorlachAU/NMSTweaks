@@ -9,7 +9,10 @@ Data-driven mods for [No Man's Sky](https://www.nomanssky.com/), built from Lua 
 
 | Mod | What it changes |
 |-----|-----------------|
-| **MovementTweaks** | Jetpack recharge **×2** (ground and mid-air), horizontal jetpack drain **×0.5**, sprint speed **×1.5** (normal and low gravity), sprint stamina drain **×0.5**, stamina recovery **×2**. Walk speed untouched. Edits `GCPLAYERGLOBALS` only. |
+| **MovementTweaks** | Jetpack recharge **×2** (ground and mid-air), horizontal jetpack drain **×0.5**, sprint speed **×1.5** (normal and low gravity), sprint stamina drain **×0.5**, stamina recovery **×2**. Walk speed untouched. Edits `GCPLAYERGLOBALS` only. *Tested in-game.* |
+| **PlanetaryTweaks** | Refiners **×3** throughput (all sizes, normal and survival). Analysis visor: scan lock time **×0.5**, pulse recharge **×0.5**, pulse radius **×1.5**, scan rewards for creatures/flora/minerals **×3**, visor tag range **×1.5** on planet and in space. Mining beam: extraction rate **×2**, time before overheat **×2**, overheat cooldown **×0.5**, energy drain **×0.5**. Ship asteroid mining yield **×2**. Terrain manipulator reach **×1.5**. Edits `GCGAMEPLAYGLOBALS`, `GCPLAYERGLOBALS` and the technology table (mining beam `LASER`, visor `SCAN1`). *Built from data; in-game test pending.* |
+
+**Coexistence:** both mods edit `GCPLAYERGLOBALS`. That works because mods ship as line patches (`.EXML` with only the changed lines) and the two mods never touch the same line. AMUMSS's docs: "If two mods edit the same MBIN by using an EXML, they will work fine provided they aren't editing the same value lines." Keep the property lists disjoint when adding to either mod. AMUMSS's own conflict checker only compares at file level, so it will flag this pair; that warning is expected.
 
 ## How NMS modding works (as of Cosmos 7.01, September 2026)
 

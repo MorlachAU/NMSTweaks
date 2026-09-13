@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcTechnologyTable">
+  <Property name="Table">
+    <Property name="Table" value="GcTechnology" _id="SCAN1">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="1.500000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="3.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="4">
+          <Property name="Bonus" value="3.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="5">
+          <Property name="Bonus" value="0.500000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="6">
+          <Property name="Bonus" value="3.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="LASER">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="16.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="0.300000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="4">
+          <Property name="Bonus" value="0.600000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>
