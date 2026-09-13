@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcPlayerGlobals">
+  <Property name="EnergyDischargeRateLow" value="0.010000" /> !# CHANGED
+  <Property name="EnergyDischargeRateMedium" value="0.125000" /> !# CHANGED
+  <Property name="EnergyDischargeRateHigh" value="0.450000" /> !# CHANGED
+  <Property name="EnergyDischargeRateFloatingInSpace" value="0.100000" /> !# CHANGED
+  <Property name="EnergyDischargeRateDeepWater" value="1.500000" /> !# CHANGED
+  <Property name="SolarRegenFactor" value="0.020000" /> !# CHANGED
+  <Property name="NormalModeHazardTimeMultiplier" value="1.800000" /> !# CHANGED
+  <Property name="NormalModeHazardDamageRateMultiplier" value="0.400000" /> !# CHANGED
+  <Property name="NormalModeHazardDamageWoundRateMultiplier" value="0.400000" /> !# CHANGED
+  <Property name="NormalModeHazardRechargeUnderground" value="3.000000" /> !# CHANGED
+  <Property name="HardModeHazardTimeMultiplier" value="0.600000" /> !# CHANGED
+  <Property name="HardModeHazardDamageRateMultiplier" value="0.150000" /> !# CHANGED
+  <Property name="HardModeHazardDamageWoundRateMultiplier" value="0.250000" /> !# CHANGED
+  <Property name="HardModeHazardRechargeUnderground" value="7.000000" /> !# CHANGED
+</Data>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcTechnologyTable">
+  <Property name="Table">
+    <Property name="Table" value="GcTechnology" _id="PROTECT">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="6">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="ENERGY">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="EXO_PROT_HOT">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="6.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="EXO_PROT_COLD">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="6.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="EXO_PROT_TOX">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="6.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="EXO_PROT_RAD">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="6.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="MECH_PROT">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="0">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>
