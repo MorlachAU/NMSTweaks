@@ -4,9 +4,9 @@
 <Data template="cGcPlayerGlobals">
   <Property name="GroundRunSpeed" value="12.000000" /> !# CHANGED
   <Property name="GroundRunSpeedLowG" value="5.250000" /> !# CHANGED
-  <Property name="JetpackDrainHorizontalFactor" value="1.250000" /> !# CHANGED
-  <Property name="JetpackFillRate" value="1.000000" /> !# CHANGED
-  <Property name="JetpackFillRateMidair" value="0.500000" /> !# CHANGED
-  <Property name="StaminaRate" value="0.050000" /> !# CHANGED
-  <Property name="StaminaRecoveryRate" value="0.200000" /> !# CHANGED
+  <Property name="JetpackDrainHorizontalFactor" value="0.500000" /> !# CHANGED
+  <Property name="JetpackFillRate" value="2.000000" /> !# CHANGED
+  <Property name="JetpackFillRateMidair" value="1.000000" /> !# CHANGED
+  <Property name="StaminaRate" value="0.010000" /> !# CHANGED
+  <Property name="StaminaRecoveryRate" value="0.500000" /> !# CHANGED
 </Data>

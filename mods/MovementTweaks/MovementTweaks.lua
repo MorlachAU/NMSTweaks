@@ -12,11 +12,11 @@
 local MOD_NAME    = "MovementTweaks"
 local NMS_VERSION = "7.01"
 
-local JETPACK_REFILL       = 2.0   -- jetpack recharge rate on the ground and mid-air
-local JETPACK_HORIZ_DRAIN  = 0.5   -- extra drain while flying forwards (lower = cheaper)
+local JETPACK_REFILL       = 4.0   -- jetpack recharge rate on the ground and mid-air (0.5 -> 2.0, 0.25 -> 1.0)
+local JETPACK_HORIZ_DRAIN  = 0.2   -- extra drain while flying forwards (2.5 -> 0.5; lower = cheaper)
 local SPRINT_SPEED         = 1.5   -- ground running speed (walk untouched)
-local STAMINA_DRAIN        = 0.5   -- stamina used per second while sprinting
-local STAMINA_RECOVERY     = 2.0   -- stamina regained per second when not sprinting
+local STAMINA_DRAIN        = 0.1   -- stamina used per second while sprinting (0.1 -> 0.01)
+local STAMINA_RECOVERY     = 5.0   -- stamina regained per second when not sprinting (0.1 -> 0.5)
 
 -- ---------------------------------------------------------------- stock values
 -- Kept as a reference and as the base the multipliers apply to.
