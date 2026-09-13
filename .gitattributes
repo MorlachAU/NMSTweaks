@@ -11,3 +11,6 @@
 *.md    text
 *.ps1   text
 LICENSE text
+
+# Batch files must stay CRLF for cmd.exe
+*.bat   text eol=crlf
