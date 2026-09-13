@@ -3,6 +3,7 @@
 Data-driven mods for [No Man's Sky](https://www.nomanssky.com/), built from Lua scripts with [AMUMSS](https://github.com/HolterPhylo/AMUMSS). Same shape as [RiftbreakerTweaks](https://github.com/MorlachAU/RiftbreakerTweaks): the scripts are the source of truth, the generated mod folders are the deliverable.
 
 > Single-player focused. Mods do **not** disable Steam achievements in No Man's Sky.
+> Current mods tested in-game on Cosmos 7.01 (September 2026).
 
 ## The mods
 
