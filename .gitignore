@@ -1,0 +1,14 @@
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# build / release artifacts
+*.zip
+*.7z
+/dist/
+
+# AMUMSS working output (never commit the tool itself)
+/amumss-logs/

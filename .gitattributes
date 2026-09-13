@@ -1,0 +1,13 @@
+# Game data is binary - never touch line endings
+*.MBIN  binary
+*.mbin  binary
+*.pak   binary
+*.DDS   binary
+
+# Text sources
+*.lua   text eol=lf
+*.MXML  text
+*.mxml  text
+*.md    text
+*.ps1   text
+LICENSE text
