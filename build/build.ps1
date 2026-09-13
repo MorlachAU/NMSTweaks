@@ -10,9 +10,10 @@
     powershell -ExecutionPolicy Bypass -File build\build.ps1
     (optionally pass -Amumss pointing at your AMUMSS install)
 
-  AMUMSS's BUILDMOD.bat is interactive: it asks a few questions in its own
-  window and does not return until you close it. Answer the prompts, let it
-  finish, then this script harvests the output.
+  AMUMSS runs in its own console window and does not return until that window
+  closes. Our BUILDMOD_AUTO.bat presets answer most of its questions (individual
+  mods, public game branch, no copy to game). Answer anything it still asks,
+  let it finish, then this script harvests the output from CreatedMODS\.
 #>
 param(
   [string]$Amumss  = "E:\AMUMSS",
@@ -20,9 +21,12 @@ param(
   [string]$OutDir  = (Join-Path $PSScriptRoot "..\mods")
 )
 
-$buildmod  = Join-Path $Amumss "BUILDMOD.bat"
+# BUILDMOD_AUTO.bat is our options wrapper (presets: individual mods, no copy
+# to game, public branch). Fall back to the stock interactive BUILDMOD.bat.
+$buildmod  = Join-Path $Amumss "BUILDMOD_AUTO.bat"
+if(-not (Test-Path $buildmod)){ $buildmod = Join-Path $Amumss "BUILDMOD.bat" }
 $modScript = Join-Path $Amumss "ModScript"
-$builds    = Join-Path $Amumss "Builds"
+$builds    = Join-Path $Amumss "CreatedMODS"   # one sub-folder per mod (verified in AMUMSS 5.6.2.0 source)
 
 if(-not (Test-Path $buildmod)){
   Write-Error "AMUMSS not found at $Amumss (expected BUILDMOD.bat there). See README > Setup."
@@ -32,6 +36,9 @@ if(-not (Test-Path $modScript)){
   Write-Error "No ModScript folder in $Amumss - run BUILDMOD.bat once by hand first so AMUMSS creates its user folders."
   exit 1
 }
+
+# 0. Refresh our options wrapper so AMUMSS runs with the repo's presets.
+Copy-Item -Force -Path (Join-Path $PSScriptRoot "BUILDMOD_AUTO.bat") -Destination (Join-Path $Amumss "BUILDMOD_AUTO.bat")
 
 # 1. Stage scripts. Anything starting with _ is a template/helper, not a mod.
 $staged = Get-ChildItem -Path $Scripts -Filter *.lua -File | Where-Object { $_.Name -notlike '_*' }
@@ -43,9 +50,9 @@ foreach($s in $staged){ Copy-Item -Force -Path $s.FullName -Destination $modScri
 "Launching AMUMSS - answer its prompts, then close it when the build is done."
 Start-Process -FilePath $buildmod -WorkingDirectory $Amumss -Wait
 
-# 3. Harvest. For NMS 5.5+ AMUMSS writes one folder per mod under Builds\.
+# 3. Harvest. For NMS 5.5+ AMUMSS writes one folder per mod under CreatedMODS\.
 if(-not (Test-Path $builds)){
-  Write-Warning "No Builds folder found under $Amumss - check where AMUMSS wrote its output and adjust the `$builds path in this script."
+  Write-Warning "No CreatedMODS folder found under $Amumss - AMUMSS did not produce a mod. Check its REPORT.lua output."
   exit 1
 }
 $produced = Get-ChildItem -Path $builds -Directory

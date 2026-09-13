@@ -29,14 +29,18 @@ build/     build.ps1 (scripts -> mods via AMUMSS), deploy.ps1 (mods -> game)
 
 ## Setup (one time)
 
-1. **.NET 8 x64 Desktop Runtime** - MBINCompiler needs it. Already installed on this machine (8.0.20).
-2. **7-Zip** - AMUMSS ships as a `.7z`. Not installed here yet: <https://www.7-zip.org/download.html>
-3. **AMUMSS** - download the latest full release from <https://github.com/HolterPhylo/AMUMSS/releases> (about 145 MB).
-   - Right-click the file > Properties > **Unblock** before extracting.
-   - Extract to `E:\AMUMSS`. Never Desktop, Downloads or Documents, and no accented characters in the path.
-   - Add an antivirus exclusion for that folder first; the maintainers warn it trips heuristics.
-   - Run `BUILDMOD.bat` once. It creates its user folders and auto-downloads the current MBINCompiler. Re-run until it stops offering updates.
-4. Point AMUMSS at the game if it does not find it: `E:\SteamLibrary\steamapps\common\No Man's Sky`.
+Done on this machine 2026-09-13; kept here for a rebuild.
+
+1. **.NET 8 x64 Desktop Runtime** - MBINCompiler needs it.
+2. **7-Zip** - AMUMSS ships as a `.7z`: <https://www.7-zip.org/download.html>
+3. **AMUMSS** - download the latest full release from <https://github.com/HolterPhylo/AMUMSS/releases> (v5.6.2.0W, 53 MB; check the SHA-256 against the digest GitHub shows on the asset).
+   - Add an antivirus exclusion for `E:\AMUMSS` first; the maintainers warn it trips heuristics.
+   - Unblock the file, extract to `E:\AMUMSS`. Never Desktop, Downloads or Documents, and no accented characters in the path.
+   - `CONFIG\NMS_FOLDER.txt` holds the game path, one line, no quotes, no trailing slash. AMUMSS normally writes it itself; it was pre-seeded here.
+   - Copy `build\BUILDMOD_AUTO.bat` from this repo into `E:\AMUMSS` (build.ps1 does this every run). It presets the options so AMUMSS asks fewer questions.
+   - Run `BUILDMOD_AUTO.bat` once by hand. It creates the user folders (`ModScript`, `CreatedMODS`, `TOOLS\...`) and auto-downloads the MBINCompiler that matches the installed game. Re-run until it stops offering updates.
+
+AMUMSS layout that matters: `ModScript\` is input, `CreatedMODS\<ModName>\` is output, `TOOLS\UNPACKED_DECOMPILED_PAKs\` and `TOOLS\MapFileTrees\` are where you look up property names.
 
 ## Workflow
 
