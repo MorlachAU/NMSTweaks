@@ -25,7 +25,7 @@
 local MOD_NAME    = "HazardTweaks"
 local NMS_VERSION = "7.01"
 
-local HAZARD_DURATION   = 2.0   -- how long hazard protection lasts in the open
+local HAZARD_DURATION   = 5.0   -- how long hazard protection lasts in the open
 local HAZARD_RECHARGE   = 2.0   -- recharge speed when sheltered (caves, buildings)
 local HAZARD_DAMAGE     = 0.5   -- damage taken once protection is depleted
 local HAZARD_CAPACITY   = 2.0   -- base suit hazard protection stat (PROTECT tech)

@@ -8,11 +8,11 @@
   <Property name="EnergyDischargeRateFloatingInSpace" value="0.100000" /> !# CHANGED
   <Property name="EnergyDischargeRateDeepWater" value="1.500000" /> !# CHANGED
   <Property name="SolarRegenFactor" value="0.020000" /> !# CHANGED
-  <Property name="NormalModeHazardTimeMultiplier" value="1.800000" /> !# CHANGED
+  <Property name="NormalModeHazardTimeMultiplier" value="4.500000" /> !# CHANGED
   <Property name="NormalModeHazardDamageRateMultiplier" value="0.400000" /> !# CHANGED
   <Property name="NormalModeHazardDamageWoundRateMultiplier" value="0.400000" /> !# CHANGED
   <Property name="NormalModeHazardRechargeUnderground" value="3.000000" /> !# CHANGED
-  <Property name="HardModeHazardTimeMultiplier" value="0.600000" /> !# CHANGED
+  <Property name="HardModeHazardTimeMultiplier" value="1.500000" /> !# CHANGED
   <Property name="HardModeHazardDamageRateMultiplier" value="0.150000" /> !# CHANGED
   <Property name="HardModeHazardDamageWoundRateMultiplier" value="0.250000" /> !# CHANGED
   <Property name="HardModeHazardRechargeUnderground" value="7.000000" /> !# CHANGED
