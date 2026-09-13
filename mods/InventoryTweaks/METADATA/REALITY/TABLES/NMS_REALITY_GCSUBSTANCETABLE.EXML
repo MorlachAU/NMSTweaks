@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcSubstanceTable">
+  <Property name="Table">
+    <Property name="Table" value="GcRealitySubstanceData" _id="FUEL1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="FUEL2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="OXYGEN">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LAUNCHSUB">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LAUNCHSUB2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ROCKETSUB">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LAND1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LAND2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LAND3">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SAND1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="CATALYST1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="CATALYST2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="CAVE1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="CAVE2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WATER1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WATER2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WATERPLANT">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="YELLOW2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="RED2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="GREEN2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="BLUE2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PURPLE2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="STELLAR2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TECHFRAG">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LUSH1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="DUSTY1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TOXIC1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="RADIO1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="COLD1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="HOT1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="LAVA1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="RUINSUB">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WATERWORLD1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="GASGIANT1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="CREATURE1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ROBOT1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ROBOT2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ASTEROID1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ASTEROID2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ASTEROID3">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="GAS1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="GAS2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="GAS3">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="GAS4">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EX_YELLOW">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EX_RED">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EX_GREEN">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EX_BLUE">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EX_PURPLE">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_TOXIC">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_SNOW">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_RADIO">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_DUST">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_HOT">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_LUSH">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_CAVE">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_WATER">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PLANT_POOP">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SPACEGUNK1">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SPACEGUNK2">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SPACEGUNK3">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SPACEGUNK4">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SPACEGUNK5">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="AF_METAL">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="BUI_SCRAP">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SPECIAL_POOP">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TECHFRAG_R">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="QUICKSILVER">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="UNITS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TRA_STANDING_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TRA_STANDING_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EXP_STANDING_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EXP_STANDING_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WAR_STANDING_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WAR_STANDING_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="BUI_STANDING_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="BUI_STANDING_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TGUILD_STAND_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TGUILD_STAND_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EGUILD_STAND_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="EGUILD_STAND_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WGUILD_STAND_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WGUILD_STAND_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PIR_STAND_UP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="PIR_STAND_DN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="NEW_PERK">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_POP_POS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_POP_NEG">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_PROD_POS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_PROD_NEG">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_MOOD_POS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_MOOD_NEG">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_COST_POS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_COST_NEG">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_SENT_POS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_SENT_NEG">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_DEBT_POS">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SET_DEBT_NEG">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SCRAP_RAD">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SCRAP_TOX">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SCRAP_EXP">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TEAM_RED">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TEAM_GREEN">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TEAM_BLUE">
+      <Property name="StackMultiplier" value="20" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SUNGOLD">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SOULFRAG">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SQUIDFRAG">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="WORMDUST">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TIMEDUST">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="TIMEMILK">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SWARMDUST">
+      <Property name="StackMultiplier" value="5" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="ASTBELT1">
+      <Property name="StackMultiplier" value="50" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="HULK1">
+      <Property name="StackMultiplier" value="50" /> !# CHANGED
+    </Property>
+    <Property name="Table" value="GcRealitySubstanceData" _id="SLIMEPOST1">
+      <Property name="StackMultiplier" value="50" /> !# CHANGED
+    </Property>
+  </Property>
+</Data>

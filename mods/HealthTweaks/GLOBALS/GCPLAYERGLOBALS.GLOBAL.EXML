@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcPlayerGlobals">
+  <Property name="DefaultHealthPips" value="9" /> !# CHANGED
+  <Property name="HealthRechargeMinTimeSinceDamage" value="5.000000" /> !# CHANGED
+  <Property name="HealthPipRechargeRate" value="400.000000" /> !# CHANGED
+  <Property name="WoundDamageLimit" value="150.000000" /> !# CHANGED
+  <Property name="WoundDamageDecayTime" value="10.000000" /> !# CHANGED
+  <Property name="ShieldRechargeMinTimeSinceDamage" value="15.000000" /> !# CHANGED
+  <Property name="ShieldRechargeRate" value="20.000000" /> !# CHANGED
+  <Property name="ShieldMaximum" value="200" /> !# CHANGED
+  <Property name="ShieldRestoreSpeed" value="0.400000" /> !# CHANGED
+  <Property name="ShieldRestoreDelay" value="5.000000" /> !# CHANGED
+</Data>

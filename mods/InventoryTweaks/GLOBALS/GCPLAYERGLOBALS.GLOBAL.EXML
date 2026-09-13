@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcPlayerGlobals">
+  <Property name="ShipValueData" value="GcInventoryValueData">
+    <Property name="BaseCostPerSlot" value="0.500000" /> !# CHANGED
+  </Property>
+  <Property name="WeaponValueData" value="GcInventoryValueData">
+    <Property name="BaseCostPerSlot" value="2.000000" /> !# CHANGED
+  </Property>
+  <Property name="FreighterValueData" value="GcInventoryValueData">
+    <Property name="BaseCostPerSlot" value="0.500000" /> !# CHANGED
+  </Property>
+</Data>

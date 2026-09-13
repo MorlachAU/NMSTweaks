@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcInventoryTable">
+  <Property name="GenerationData" value="GcInventoryLayoutGenerationData">
+    <Property name="GenerationDataPerSizeType">
+      <Property name="SciSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="29" /> !# CHANGED
+        <Property name="MaxSlots" value="29" /> !# CHANGED
+        <Property name="MinTechSlots" value="19" /> !# CHANGED
+        <Property name="MaxTechSlots" value="19" /> !# CHANGED
+      </Property>
+      <Property name="SciMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="32" /> !# CHANGED
+        <Property name="MaxSlots" value="32" /> !# CHANGED
+        <Property name="MinTechSlots" value="24" /> !# CHANGED
+        <Property name="MaxTechSlots" value="24" /> !# CHANGED
+      </Property>
+      <Property name="SciLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="38" /> !# CHANGED
+        <Property name="MaxSlots" value="38" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="FgtSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="28" /> !# CHANGED
+        <Property name="MaxSlots" value="28" /> !# CHANGED
+        <Property name="MinTechSlots" value="19" /> !# CHANGED
+        <Property name="MaxTechSlots" value="19" /> !# CHANGED
+      </Property>
+      <Property name="FgtMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="32" /> !# CHANGED
+        <Property name="MaxSlots" value="32" /> !# CHANGED
+        <Property name="MinTechSlots" value="24" /> !# CHANGED
+        <Property name="MaxTechSlots" value="24" /> !# CHANGED
+      </Property>
+      <Property name="FgtLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="38" /> !# CHANGED
+        <Property name="MaxSlots" value="38" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="ShuSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="32" /> !# CHANGED
+        <Property name="MaxSlots" value="32" /> !# CHANGED
+        <Property name="MinTechSlots" value="19" /> !# CHANGED
+        <Property name="MaxTechSlots" value="19" /> !# CHANGED
+      </Property>
+      <Property name="ShtMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="36" /> !# CHANGED
+        <Property name="MaxSlots" value="36" /> !# CHANGED
+        <Property name="MinTechSlots" value="26" /> !# CHANGED
+        <Property name="MaxTechSlots" value="26" /> !# CHANGED
+      </Property>
+      <Property name="ShtLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="42" /> !# CHANGED
+        <Property name="MaxSlots" value="42" /> !# CHANGED
+        <Property name="MinTechSlots" value="28" /> !# CHANGED
+        <Property name="MaxTechSlots" value="28" /> !# CHANGED
+      </Property>
+      <Property name="DrpSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="36" /> !# CHANGED
+        <Property name="MaxSlots" value="36" /> !# CHANGED
+        <Property name="MinTechSlots" value="18" /> !# CHANGED
+        <Property name="MaxTechSlots" value="18" /> !# CHANGED
+      </Property>
+      <Property name="DrpMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="40" /> !# CHANGED
+        <Property name="MaxSlots" value="40" /> !# CHANGED
+        <Property name="MinTechSlots" value="24" /> !# CHANGED
+        <Property name="MaxTechSlots" value="24" /> !# CHANGED
+      </Property>
+      <Property name="DrpLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="48" /> !# CHANGED
+        <Property name="MaxSlots" value="48" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="RoySmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="30" /> !# CHANGED
+        <Property name="MaxSlots" value="30" /> !# CHANGED
+        <Property name="MinTechSlots" value="19" /> !# CHANGED
+        <Property name="MaxTechSlots" value="19" /> !# CHANGED
+      </Property>
+      <Property name="RoyMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="30" /> !# CHANGED
+        <Property name="MaxSlots" value="30" /> !# CHANGED
+        <Property name="MinTechSlots" value="28" /> !# CHANGED
+        <Property name="MaxTechSlots" value="28" /> !# CHANGED
+      </Property>
+      <Property name="RoyLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="32" /> !# CHANGED
+        <Property name="MaxSlots" value="32" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="AlienSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="36" /> !# CHANGED
+        <Property name="MaxSlots" value="36" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="AlienMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="36" /> !# CHANGED
+        <Property name="MaxSlots" value="36" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="AlienLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="36" /> !# CHANGED
+        <Property name="MaxSlots" value="36" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="SailSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="30" /> !# CHANGED
+        <Property name="MaxSlots" value="30" /> !# CHANGED
+        <Property name="MinTechSlots" value="18" /> !# CHANGED
+        <Property name="MaxTechSlots" value="18" /> !# CHANGED
+      </Property>
+      <Property name="SailMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="32" /> !# CHANGED
+        <Property name="MaxSlots" value="32" /> !# CHANGED
+        <Property name="MinTechSlots" value="22" /> !# CHANGED
+        <Property name="MaxTechSlots" value="22" /> !# CHANGED
+      </Property>
+      <Property name="SailLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="36" /> !# CHANGED
+        <Property name="MaxSlots" value="36" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="RobotSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="40" /> !# CHANGED
+        <Property name="MaxSlots" value="40" /> !# CHANGED
+        <Property name="MinTechSlots" value="28" /> !# CHANGED
+        <Property name="MaxTechSlots" value="28" /> !# CHANGED
+      </Property>
+      <Property name="RobotMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="40" /> !# CHANGED
+        <Property name="MaxSlots" value="40" /> !# CHANGED
+        <Property name="MinTechSlots" value="28" /> !# CHANGED
+        <Property name="MaxTechSlots" value="28" /> !# CHANGED
+      </Property>
+      <Property name="RobotLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="40" /> !# CHANGED
+        <Property name="MaxSlots" value="40" /> !# CHANGED
+        <Property name="MinTechSlots" value="28" /> !# CHANGED
+        <Property name="MaxTechSlots" value="28" /> !# CHANGED
+      </Property>
+      <Property name="WeaponSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="18" /> !# CHANGED
+        <Property name="MaxSlots" value="18" /> !# CHANGED
+        <Property name="MinTechSlots" value="18" /> !# CHANGED
+        <Property name="MaxTechSlots" value="18" /> !# CHANGED
+      </Property>
+      <Property name="WeaponMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="20" /> !# CHANGED
+        <Property name="MaxSlots" value="20" /> !# CHANGED
+        <Property name="MinTechSlots" value="20" /> !# CHANGED
+        <Property name="MaxTechSlots" value="20" /> !# CHANGED
+      </Property>
+      <Property name="WeaponLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="30" /> !# CHANGED
+        <Property name="MaxSlots" value="30" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="FreighterSmall" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="19" /> !# CHANGED
+        <Property name="MaxSlots" value="19" /> !# CHANGED
+        <Property name="MinTechSlots" value="12" /> !# CHANGED
+        <Property name="MaxTechSlots" value="12" /> !# CHANGED
+      </Property>
+      <Property name="FreighterMedium" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="34" /> !# CHANGED
+        <Property name="MaxSlots" value="34" /> !# CHANGED
+        <Property name="MinTechSlots" value="20" /> !# CHANGED
+        <Property name="MaxTechSlots" value="20" /> !# CHANGED
+      </Property>
+      <Property name="FreighterLarge" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="48" /> !# CHANGED
+        <Property name="MaxSlots" value="48" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+      <Property name="Corvette" value="GcInventoryLayoutGenerationDataEntry">
+        <Property name="MinSlots" value="48" /> !# CHANGED
+        <Property name="MaxSlots" value="48" /> !# CHANGED
+        <Property name="MinTechSlots" value="30" /> !# CHANGED
+        <Property name="MaxTechSlots" value="30" /> !# CHANGED
+      </Property>
+    </Property>
+  </Property>
+</Data>
