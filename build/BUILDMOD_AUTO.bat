@@ -14,4 +14,4 @@ set _O=%_O%      -UseLuaScriptInPak Y
 set _O=%_O%      -IncludeLuaScriptInPak Y
 set _O=%_O%      -DEV_MODE D
 set _O=%_O%      -SHOWOPTIONS N
-BUILDMOD.bat %_O%
+call "%~dp0BUILDMOD.bat" %_O%

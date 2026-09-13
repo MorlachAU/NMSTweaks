@@ -8,7 +8,7 @@ Data-driven mods for [No Man's Sky](https://www.nomanssky.com/), built from Lua 
 
 | Mod | What it changes |
 |-----|-----------------|
-| *(none yet)* | First mod goes here. |
+| **MovementTweaks** | Jetpack recharge **×2** (ground and mid-air), horizontal jetpack drain **×0.5**, sprint speed **×1.5** (normal and low gravity), sprint stamina drain **×0.5**, stamina recovery **×2**. Walk speed untouched. Edits `GCPLAYERGLOBALS` only. |
 
 ## How NMS modding works (as of Cosmos 7.01, September 2026)
 

@@ -10,15 +10,16 @@
     powershell -ExecutionPolicy Bypass -File build\build.ps1
     (optionally pass -Amumss pointing at your AMUMSS install)
 
-  AMUMSS runs in its own console window and does not return until that window
-  closes. Our BUILDMOD_AUTO.bat presets answer most of its questions (individual
-  mods, public game branch, no copy to game). Answer anything it still asks,
-  let it finish, then this script harvests the output from CreatedMODS\.
+  AMUMSS runs unattended by default, with our BUILDMOD_AUTO.bat presets
+  answering its questions (individual mods, public game branch, no copy to
+  game). Pass -Interactive to run it in its own window and answer prompts
+  yourself. Either way this script then harvests CreatedMODS\ into mods\.
 #>
 param(
   [string]$Amumss  = "E:\AMUMSS",
   [string]$Scripts = (Join-Path $PSScriptRoot "..\scripts"),
-  [string]$OutDir  = (Join-Path $PSScriptRoot "..\mods")
+  [string]$OutDir  = (Join-Path $PSScriptRoot "..\mods"),
+  [switch]$Interactive
 )
 
 # BUILDMOD_AUTO.bat is our options wrapper (presets: individual mods, no copy
@@ -46,9 +47,27 @@ if($staged.Count -eq 0){ Write-Error "No scripts to build in $Scripts"; exit 1 }
 Get-ChildItem -Path $modScript -Filter *.lua -File | Remove-Item -Force
 foreach($s in $staged){ Copy-Item -Force -Path $s.FullName -Destination $modScript; "Staged  $($s.Name)" }
 
-# 2. Run AMUMSS and wait for its window to close.
-"Launching AMUMSS - answer its prompts, then close it when the build is done."
-Start-Process -FilePath $buildmod -WorkingDirectory $Amumss -Wait
+# 2. Run AMUMSS. Default is unattended: output streams into this console and
+#    stdin is closed, so any stray 'pause' passes straight through and the
+#    presets in BUILDMOD_AUTO.bat answer the questions. -Interactive opens
+#    AMUMSS in its own window instead, for when you need to answer prompts.
+if($Interactive){
+  "Launching AMUMSS in its own window - answer its prompts, then close it when the build is done."
+  Start-Process -FilePath $buildmod -WorkingDirectory $Amumss -Wait
+} else {
+  "Running AMUMSS unattended..."
+  # BUILDMOD.bat refuses to start unless these four folders appear in PATH
+  # spelled exactly like this. Shells launched from tools sometimes carry a
+  # differently-spelled PATH, so pin them at the front for this run only.
+  $sys = $env:SystemRoot
+  $env:PATH = "$sys\system32;$sys;$sys\system32\Wbem;$sys\system32\WindowsPowerShell\v1.0\;" + $env:PATH
+  # AMUMSS calls its helper programs by bare name from the current folder
+  # (MBINCompiler.exe, 7z.exe ...). Some sandboxed shells set this variable,
+  # which makes cmd refuse exactly that. Clear it for this process only.
+  Remove-Item Env:NoDefaultCurrentDirectoryInExePath -ErrorAction SilentlyContinue
+  # cd inside cmd itself: a child process does not inherit PowerShell's location.
+  cmd.exe /c "cd /d `"$Amumss`" && `"$buildmod`" < nul"
+}
 
 # 3. Harvest. For NMS 5.5+ AMUMSS writes one folder per mod under CreatedMODS\.
 if(-not (Test-Path $builds)){
