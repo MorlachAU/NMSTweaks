@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcSpaceshipGlobals">
+  <Property name="Control" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="270.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1800.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="187.500000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="150.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="232.500000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="172.500000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1800.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="120.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="150.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="232.500000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlLight" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="120.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="270.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1950.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="187.500000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="300.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="225.000000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="120.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="195.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1950.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="120.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="120.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="150.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="232.500000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlHeavy" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="270.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="195.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="277.500000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="150.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="120.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="75.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="180.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlHeavyHover" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="270.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="195.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="277.500000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="150.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="120.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="75.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="180.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlCorvette" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="270.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="195.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="277.500000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="150.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="120.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="75.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="180.000000" /> !# CHANGED
+    </Property>
+  </Property>
+  <Property name="ControlHover" value="GcPlayerSpaceshipControlData">
+    <Property name="SpaceEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="270.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="PlanetEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="30.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="195.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="600.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="277.500000" /> !# CHANGED
+    </Property>
+    <Property name="CombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="195.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="750.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="1650.000000" /> !# CHANGED
+    </Property>
+    <Property name="AtmosCombatEngine" value="GcPlayerSpaceshipEngineData">
+      <Property name="ThrustForce" value="60.000000" /> !# CHANGED
+      <Property name="MaxSpeed" value="120.000000" /> !# CHANGED
+      <Property name="BoostThrustForce" value="75.000000" /> !# CHANGED
+      <Property name="BoostMaxSpeed" value="180.000000" /> !# CHANGED
+    </Property>
+  </Property>
+</Data>

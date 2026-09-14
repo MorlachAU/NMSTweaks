@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.01.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcTechnologyTable">
+  <Property name="Table">
+    <Property name="Table" value="GcTechnology" _id="SHIPJUMP1">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="0.500000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="125.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="1.250000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="4">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="LAUNCHER">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="25.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="HYPERDRIVE">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="300.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="SHIPSHIELD">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="1.300000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="SHIPJUMP_ALIEN">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="0.250000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="125.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="1.250000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="4">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="LAUNCHER_ALIEN">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="25.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="WARP_ALIEN">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="300.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="SHIELD_ALIEN">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="1.300000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="LAUNCHER_SPEC">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="12.500000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="SHIPJUMP_SPEC">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="0.500000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="150.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="1.375000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="4">
+          <Property name="Bonus" value="2.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="HYPERDRIVE_SPEC">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="1800.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="4.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="LAUNCHER_ROBO">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="12.500000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="SHIPJUMP_ROBO">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="0.500000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="150.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="3">
+          <Property name="Bonus" value="1.250000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="4">
+          <Property name="Bonus" value="2.200000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="HYPERDRIVE_ROBO">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="1800.000000" /> !# CHANGED
+        </Property>
+        <Property name="StatBonuses" value="GcStatsBonus" _index="2">
+          <Property name="Bonus" value="4.000000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcTechnology" _id="SHIPSHIELD_ROBO">
+      <Property name="StatBonuses">
+        <Property name="StatBonuses" value="GcStatsBonus" _index="1">
+          <Property name="Bonus" value="1.300000" /> !# CHANGED
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>
