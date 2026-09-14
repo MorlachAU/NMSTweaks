@@ -15,7 +15,7 @@ Data-driven mods for [No Man's Sky](https://www.nomanssky.com/), built from Lua 
 | **HealthTweaks** | Full health bar from the start (**9** pips, stock 3). Health regen **×2** faster, starts **×0.5** sooner after damage. Shield maximum **×2**, shield regen **×2** faster, starts **×0.5** sooner. Wounds need **×2** the damage to inflict and fade **×0.5** as fast. Edits `GCPLAYERGLOBALS` only. *Tested in-game.* |
 | **InventoryTweaks** | Stack sizes **×5** for every product and substance (non-stackables stay non-stackable). New ships, multi-tools, freighters and corvettes always generate with their **maximum** slot count (stock rolls a range). Slot purchase base cost **×0.5** for ships, weapons and freighters. Edits the product, substance and inventory tables plus `GCPLAYERGLOBALS`. *Tested in-game.* Stack sizes and slot costs apply to an existing save at once; slot generation only affects inventories created after install. Exosuit slots are not touched (those come from drop pods and station purchases). |
 
-**Coexistence:** both mods edit `GCPLAYERGLOBALS`. That works because mods ship as line patches (`.EXML` with only the changed lines) and the two mods never touch the same line. AMUMSS's docs: "If two mods edit the same MBIN by using an EXML, they will work fine provided they aren't editing the same value lines." Keep the property lists disjoint when adding to either mod. AMUMSS's own conflict checker only compares at file level, so it will flag this pair; that warning is expected.
+**Coexistence:** all five mods edit `GCPLAYERGLOBALS`, and two of them edit the technology table. That works because mods ship as line patches (`.EXML` with only the changed lines) and no two mods ever touch the same line. AMUMSS's docs: "If two mods edit the same MBIN by using an EXML, they will work fine provided they aren't editing the same value lines." Confirmed in-game with all five active. Keep the property lists disjoint when adding to any mod; if a new change needs a line another mod already owns, it belongs in that mod. AMUMSS's own conflict checker only compares at file level, so it will flag these; that warning is expected.
 
 ## How NMS modding works (as of Cosmos 7.01, September 2026)
 
@@ -56,7 +56,7 @@ powershell -ExecutionPolicy Bypass -File build\build.ps1    # scripts/ -> AMUMSS
 powershell -ExecutionPolicy Bypass -File build\deploy.ps1   # mods/ -> GAMEDATA\MODS
 ```
 
-`build.ps1` copies every `scripts\*.lua` (except `_`-prefixed helpers) into AMUMSS's `ModScript` folder, launches `BUILDMOD.bat`, waits for you to close it, then copies the produced mod folders back into `mods\`. To retune, edit the numbers at the top of a script and rebuild.
+`build.ps1` copies every `scripts\*.lua` (except `_`-prefixed helpers) into AMUMSS's `ModScript` folder, runs AMUMSS unattended with the presets in `build\BUILDMOD_AUTO.bat`, then copies the produced mod folders from `CreatedMODS\` back into `mods\`. Pass `-Interactive` to run AMUMSS in its own window and answer its prompts yourself. A full build of all five mods takes about two minutes; the product table is the slow part. To retune, edit the numbers at the top of a script and rebuild.
 
 To remove a mod, delete its folder from `GAMEDATA\MODS`. Nothing in the game install is permanently changed.
 
